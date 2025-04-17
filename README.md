@@ -15,8 +15,7 @@ A Node.js API for analyzing user transaction records from CSV files. Processes C
 ## Installation
 
 1. **Clone the repository**
-git clone https://github.com/AbhinavSingh93/Assignment
-cd Assignment
+git clone https://github.com/AbhinavSingh93/Assignment then cd Assignment
 
 2. **Install dependencies**
 npm install express multer csv-parser
@@ -31,9 +30,11 @@ Server will be running at http://localhost:3000
 2. **Send CSV file to API**
 
 Postman:
-Set request type to POST
-URL: http://localhost:3000/analyze
-Body > form-data:
-Key: file (File type)
-Value: Select your CSV file
-Then click on send
+1. Set request type to POST
+2. URL: http://localhost:3000/analyze
+3. Body > form-data:
+   - Key: file (File type)
+   - Value: Select your CSV file
+4. Click Send
+    
+
