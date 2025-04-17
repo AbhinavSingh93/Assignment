@@ -1,4 +1,4 @@
-# CSV Transaction Analyzer API
+# CSV Analyzer API
 
 A Node.js API for analyzing user transaction records from CSV files. Processes CSV data to provide user transaction summaries and handles invalid data gracefully.
 
